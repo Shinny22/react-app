@@ -15,7 +15,7 @@ const Content:React.FC<Props>=(props:Props)=>{
     return (
 
         
-            <div className="flex flex-between mb-2 bg-[url('asset/Path.png')]">
+            <div className="flex flex-between mb-2 ">
                 <div className="w-150 h-100 ">
                     <img src={props.image} alt="Menu item" />
                 </div>

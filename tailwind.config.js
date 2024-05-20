@@ -8,6 +8,8 @@ export default {
     extend: {
       backgroundImage: {
         'hero-pattern': "url('asset/Path.png')",
+       
+
       },
       colors: {
         'text-blue':'#505F98',

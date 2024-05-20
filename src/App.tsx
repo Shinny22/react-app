@@ -26,27 +26,25 @@ const menu = [
 function App() {
   return (
     <>
+    <div className="bg-[url('asset/Path.svg')] bg-contain bg bg-no-repeat mb-[100px] bg-[290px] ">
      <Nav></Nav>
-      <div className='flex justify-around gap-5'>
         <div className="container">
           <Text 
             title='Introduce Your Product Quickly & Effectively' 
             content='Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.' 
           />
-          <Buttonnav value="Purchase UI Kit" />
-
-          <Buttonnav  value="Learn More"/>
           
         </div>
-        <div className='flex justify-between gap-3 '> 
-          <div>
-            <Image image="/asset/Group.png" value="Il s'agit d'une image" />
-          </div>
-        </div>
-      </div>
 
+       
+          <div className='relative ml-20 left-[500px] bottom-[230px] '>
+            <Image image="/asset/Group.png" value="Il s'agit d'une image" />
+          
+        </div>
+      
+    </div>
       {/* Render the menu items */}
-      <div className='menu-list gap-5'>
+      <div className='menu-list gap-5 mt-5'>
         {menu.map((item, index) => (
           <Content key={index} image={item.image} text={item.text} content={item.content} />
         ))}
