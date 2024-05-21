@@ -4,9 +4,9 @@ export const Nav = () => {
     return (
         <div className='flex flex-col md:flex-row justify-between items-center gap-5 md:gap-[275px] mt-5  mb-10 px-4 md:px-8'>
             <ul className='flex flex-col md:flex-row items-center text-decoration-none text-[#37447E] text-sm gap-5 md:gap-[30px]'>
-                <li><a href='#'>Home</a></li>
-                <li><a href='#'>About</a></li>
-                <li><a href='#'>Contact</a></li>            
+                <li className="hover:bg-[#37447E] rounded-lg px-3 py-2 hover:text-white shadow-md"><a href='#'>Home</a></li>
+                <li className="hover:bg-[#37447E] rounded-lg px-3 py-2 hover:text-white shadow-md"><a href='#'>About</a></li>
+                <li className="hover:bg-[#37447E] rounded-lg px-3 py-2 hover:text-white shadow-md"><a href='#'>Contact</a></li>            
             </ul>
 
             <div className='mt-3 md:mt-0'>
