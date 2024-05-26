@@ -10,7 +10,7 @@ interface Props {
 
 export const Icon = (props: Props) => {
     return (
-        <div >
+        <div className="" >
             <div>< img src={props.icon}/></div>
             {/* <div>{props.title}</div>
             <div>{props.content}</div> */}
