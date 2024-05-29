@@ -75,3 +75,4 @@ module.exports = {
   },
   plugins: [require("tailwindcss-animate")],
 }
+      // './src/stories/**/*.{js,ts,jsx,tsx,mdx}' lien tailwindcss pour storybook

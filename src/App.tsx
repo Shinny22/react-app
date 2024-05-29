@@ -6,7 +6,6 @@ import { Nav } from './Component/Nav';
 import Buttonnav from './Component/Buttonnav';
 import { Icon } from './Component/Icon';
 import Aboutus from './Component/Aboutus';
-import { Footer } from './Component/Footer';
 
 
 const menu = [
@@ -37,7 +36,7 @@ function App() {
             title='Introduce Your Product Quickly & Effectively' 
             content='Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.' 
           />
-          
+           {/* <Doublebutton/> */}
           
         </div>
 
@@ -57,9 +56,11 @@ function App() {
         ))}
       </div>
     
-     <Footer/>
+      <div className="mt-5">
+          <Icon  icon="public/asset/Pricing.svg"/>
+      </div>
 
-     <AboutUsView/>
+      
      
     </>
   );
